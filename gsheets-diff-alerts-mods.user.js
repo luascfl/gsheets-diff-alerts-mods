@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Google Sheets Diff alerts mods: Remover cabeçalhos de linhas e Modificar Links do Google (CSE incluído)
 // @namespace      http://tampermonkey.net/
-// @version        3.6
+// @version        3.7
 // @description    Remove elementos .row-header-wrapper, modifica links do Google (incluindo CSE) removendo prefixos de redirecionamento e decodifica %3D para = em todos os elementos de texto dentro de tabelas.
 // @author         luascfl (modificado por Gemini)
 // @icon           https://e7.pngegg.com/pngimages/660/350/png-clipart-green-and-white-sheet-icon-google-docs-google-sheets-spreadsheet-g-suite-google-angle-rectangle-thumbnail.png
