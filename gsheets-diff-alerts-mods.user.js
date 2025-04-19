@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Google Sheets Diff alerts mods: Remover cabeçalhos de linhas e Modificar Links do Google
 // @namespace    http://tampermonkey.net/
-// @version      3.4
+// @version      3.5
 // @description  Remove elementos .row-header-wrapper, modifica links do Google removendo o prefixo de redirecionamento e decodifica %3D para = em todos os elementos de texto dentro de tabelas, garantindo que links como exemplo.com/?parametro%3Dvalor sejam corrigidos
 // @author       luascfl
 // @icon         https://e7.pngegg.com/pngimages/660/350/png-clipart-green-and-white-sheet-icon-google-docs-google-sheets-spreadsheet-g-suite-google-angle-rectangle-thumbnail.png
 // @match        https://docs.google.com/spreadsheets/d/*/notify/show*
 // @match        https://docs.google.com/spreadsheets/u/*/d/*/revisions/show*
+// @match        https://cse.google.com/*
 // @home         https://github.com/luascfl/gsheets-diff-alerts-mods
 // @supportURL   https://github.com/luascfl/gsheets-diff-alerts-mods/issues
 // @updateURL    https://raw.githubusercontent.com/luascfl/gsheets-diff-alerts-mods/main/gsheets-diff-alerts-mods.user.js
